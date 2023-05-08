@@ -1,0 +1,39 @@
+* {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    color: #eee;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#increment-btn {
+    background-color: #333;
+}
+#increment-btn:active {
+    background-color: #888;
+    transform: scale(1.2);
+}
+
+#save-btn {
+    background-color: #69bf64;
+}
+#save-btn:active {
+    background-color: #c3d4a5;
+    transform: scale(1.2);
+}
